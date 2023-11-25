@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: black;
+    --second-color: white;
+}
+
+html.dark{
+    --main-color: white;
+    --second-color: grey;
+}
+
+html.dark{
+    background-color: black;
+    color: var();
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
